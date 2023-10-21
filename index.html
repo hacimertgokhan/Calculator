@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet/less" href="./style.css" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/less@4.1.1"></script>
+    <script src="https://kit.fontawesome.com/55460c171b.js" crossorigin="anonymous"></script>
+    <title>Basic Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="showcase"><p id="showcase"></p></div>
+        <div class="buttons">
+            <ul>
+                <li id="calculate"><p>Calc</p></li>
+                <li id="ac"><p>AC</p></li>
+                <li id="brackets"><p>()</p></li>
+                <li id="delete"><p><i class="fa-solid fa-left-long fa-xl"></i></p></li>
+            </ul>
+            <div class="symbols">
+                <ul>
+                    <li id="x"><p>x</p></li>
+                    <li id="/"><p>/</p></li>
+                    <li id="+"><p>+</p></li>
+                    <li id="-"><p>-</p></li>
+                </ul>
+            </div>
+            <div class="numbers">
+                <ul>
+                    <li id="1"><p>1</p></li>
+                    <li id="2"><p>2</p></li>
+                    <li id="3"><p>3</p></li>
+                    <li id="4"><p>4</p></li>
+                    <li id="5"><p>5</p></li>
+                    <li id="6"><p>6</p></li>
+                    <li id="7"><p>7</p></li>
+                    <li id="8"><p>8</p></li>
+                    <li id="9"><p>9</p></li>
+                    <li id="0"><p>0</p></li>
+                    <li id="."><p>.</p></li>
+                    <li id=""><p>,</p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="math" id="math">
+            <ul>
+                <li id="sqrt"><p>x<sup>2</sup></p></li>
+                <li id="xUpN"><p>x<sup>n</sup></p></li>
+                <li id="factorial"><p>x<strong>!</strong></p></li>
+            </ul>
+        </div>
+    </div>
+</body>
+    <script src="calculator.js"></script>
+</html>
