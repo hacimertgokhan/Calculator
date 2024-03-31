@@ -43,3 +43,7 @@
 <div align="center"><h1>Image(s)</h1></div>
 
 ![resim_2023-10-21_104132148](https://github.com/hacimertgokhan/Calculator/assets/64479768/f606e046-2110-44f9-b1e2-cde89d3552a9)
+
+# Forks
+
+[Developed by CParthur1](https://github.com/cparthur1/iOSCalc_Replacer)
